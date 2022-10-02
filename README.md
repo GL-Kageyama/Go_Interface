@@ -1,4 +1,4 @@
-# Go Interface Sample
+# Go Interface
 
 ## Interface
 Interfaces are considered separately from implementation and use.  
