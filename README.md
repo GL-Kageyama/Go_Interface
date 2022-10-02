@@ -7,7 +7,7 @@ And the Go interface is also used to resolve "circular reference".
 ### Circular reference
 The Go language prohibits circular references to packages.  
 A circular reference means that packages A and B refer to each other.  
-This specification contributes to a layered architecture.  
+The prohibition of circular references contributes to the realization of a layered architecture.  
 
 ## Structure
 dog/  
