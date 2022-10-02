@@ -1,7 +1,8 @@
 # Go Interface Sample
 
 ## Interface
-
+Interfaces are considered separately from implementation and use.  
+And the Go interface is also used to resolve "import cycle".  
 
 ## Structure
 dog/  
