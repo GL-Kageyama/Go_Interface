@@ -2,7 +2,12 @@
 
 ## Interface
 Interfaces are considered separately from implementation and use.  
-And the Go interface is also used to resolve "import cycle".  
+And the Go interface is also used to resolve "circular reference".  
+
+### Circular reference
+The Go language prohibits circular references to packages.  
+A circular reference means that packages A and B refer to each other.  
+This specification contributes to a layered architecture.  
 
 ## Structure
 dog/  
