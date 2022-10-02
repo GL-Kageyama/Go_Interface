@@ -19,7 +19,7 @@ Dog.go
 ```Go
 func (d *Dog) GetDog() string {  
   cat := &cat.Cat{ CatObj: NewDogRoar() }  
-  // GetCat -> GetDogRoar
+  // GetCat -> DogInterface -> GetDogRoar
   return cat.GetCat()   
 } 
 ```
