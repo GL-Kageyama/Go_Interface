@@ -13,6 +13,13 @@ cat/
 &ensp;&ensp;DogInterface.go  
 main.go  
 
+## Point
+func (d *Dog) GetDog() string {  
+&ensp;&ensp;&ensp;&ensp;cat := &cat.Cat{ CatObj: NewDogRoar() }  
+&ensp;&ensp;&ensp;&ensp;return cat.GetCat()   
+}  
+note : In the GetDog function, the GetCat function is called, but the result is "Bow Wow !". 
+
 ## Output Sample
 $ go build  
 $ ./Go_Interface   
