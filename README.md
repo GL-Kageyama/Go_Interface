@@ -8,6 +8,8 @@ And the Go interface is also used to resolve "circular reference".
 The Go language prohibits circular references to packages.  
 A circular reference means that packages A and B refer to each other.  
 The prohibition of circular references contributes to the realization of a layered architecture.  
+Sometimes, the prohibition of circular references is too strict a restriction and becomes an obstacle to programming.  
+Therefore, an interface may be used to separate the package from circular references and create a pseudo-state in which circular references are permitted.  
 
 ## Structure
 dog/  
